@@ -1,0 +1,33 @@
+/** @format */
+
+body {
+	background: aqua;
+}
+
+.container {
+	text-align: center;
+}
+
+.board {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 5px;
+	margin: 20px auto;
+}
+
+.cell {
+	width: 180px;
+	height: 150px;
+	background-color: navy;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 3em;
+	cursor: pointer;
+	color: aliceblue;
+}
+
+.message {
+	margin-top: 20px;
+	font-size: 1.5em;
+}
